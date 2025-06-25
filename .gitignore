@@ -1,0 +1,46 @@
+# Bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter runtime files
+*.jpynb
+*.jupyter
+.jupyter/
+.runtime/
+
+# pip or conda specific
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode or other IDE settings
+.vscode/
+.idea/
+
+# Jupyter Notebook metadata
+*.nbconvert.ipynb
+
+# Cache files
+*.cache
+.cache/
