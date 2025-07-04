@@ -39,7 +39,7 @@ def generate_linear_data(
 def generate_nonlinear_data(
     func: Callable[[np.ndarray], np.ndarray],
     n_samples: int = 100,
-    noise_std: float = 0.1,
+    noise_std: float = 1.0,
     with_noise: bool = True,
     x_min: float = 0.0,
     x_max: float = 10.0
