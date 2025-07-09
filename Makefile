@@ -4,7 +4,7 @@ PWD=$(shell pwd)
 build:
 	docker build -t $(IMAGE) .
 
-exec-bash:
+bash:
 	docker exec -it $(IMAGE) bash
 
 run:
