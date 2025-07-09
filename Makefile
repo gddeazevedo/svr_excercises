@@ -9,3 +9,6 @@ bash:
 
 run:
 	docker run --rm -v "$(PWD)":/app -p 8888:8888 -d --name $(IMAGE) $(IMAGE)
+
+stop:
+	docker stop $(IMAGE)
