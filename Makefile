@@ -8,4 +8,4 @@ exec-bash:
 	docker exec -it $(IMAGE) bash
 
 run:
-	docker run --rm -v "$(PWD)":/app -p 8888:8888 --name $(IMAGE) $(IMAGE)
+	docker run --rm -v "$(PWD)":/app -p 8888:8888 -d --name $(IMAGE) $(IMAGE)
